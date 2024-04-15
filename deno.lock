@@ -1,0 +1,25 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:hono": "npm:hono@4.2.3",
+      "npm:hono@^4.2.4": "npm:hono@4.2.4"
+    },
+    "npm": {
+      "hono@4.2.3": {
+        "integrity": "sha512-yZDnPOp/XzjIB7KUWaOxwLSywnhxMvAKth8hfKhWQiWXeZhBfC6GlFnEst/FOOgn7rSWjShhQPS89PLEuHxq3Q==",
+        "dependencies": {}
+      },
+      "hono@4.2.4": {
+        "integrity": "sha512-2T5Ahxh8tT0ISKCrNeA+OIwfD5W4EZ00iIMYBBCuiIivr+sOrZYOphinARSG7wL3nFsY6zkFHMMZbcR9CzEzug==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "npm:hono@^4.2.4"
+    ]
+  }
+}

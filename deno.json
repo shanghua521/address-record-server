@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start:dev": "deno run --unstable-kv -A --watch main.ts",
+    "start:prod": "deno run --unstable-kv -A main.ts"
+  },
+  "imports": {
+    "hono": "npm:hono@^4.2.4"
+  }
+}
