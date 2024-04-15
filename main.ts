@@ -1,6 +1,6 @@
-import { Hono, MiddlewareHandler } from 'hono'
-import { HTTPException } from 'hono/http-exception'
-import { bearerAuth } from 'hono/bearer-auth'
+import { Hono, MiddlewareHandler } from 'npm:hono'
+import { HTTPException } from 'npm:hono/http-exception'
+import { bearerAuth } from 'npm:hono/bearer-auth'
 
 interface Address {
   value: string;
